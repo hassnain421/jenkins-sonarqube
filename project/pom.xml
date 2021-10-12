@@ -63,6 +63,9 @@
                     http://143.198.7.75:9000/
                 </sonar.host.url>
             </properties>
+            <properties>
+                 <sonar.projectKey>test1</sonar.projectKey>
+            </properties>
         </profile>
         <profile>
             <id>coverage</id>
