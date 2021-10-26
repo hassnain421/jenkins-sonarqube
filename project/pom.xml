@@ -60,11 +60,9 @@
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                    http://143.198.7.75:9000/
+                    http://192.168.161.133:9000/
                 </sonar.host.url>
-            </properties>
-            <properties>
-                 <sonar.projectKey>test1</sonar.projectKey>
+                <sonar.projectKey>test1</sonar.projectKey>
             </properties>
         </profile>
         <profile>
