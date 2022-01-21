@@ -1,11 +1,11 @@
 node {
   stage ('Cloning from Git') {
     git 'https://github.com/hassnain421/jenkins-sonarqube.git'
-  }/*
+  }
   stage ('Execute Maven') {
     mvnHome = tool 'maven'
     sh 'mvn clean install'
-  }*/
+  }
  stage ('SonarQube Analysis') {
     def scannerHome = tool 'sonarqube';
     withSonarQubeEnv('sonarqube') {
