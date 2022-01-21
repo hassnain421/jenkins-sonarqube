@@ -13,8 +13,8 @@ node {
       -D sonar.login=admin \
       -D sonar.password=admin123 \
       -D sonar.projectKey=test \
-      -D sonar.sources=/mnt/jenkins-home/workspace/sonarqube/src/main/ \
-      -D sonar.tests=/mnt/jenkins-home/workspace/sonarqube/src/test/ \
+      -D sonar.sources=/var/jenkins_home/workspace/sonarqube/project/src/main/ \
+      -D sonar.tests=/var/jenkins_home/workspace/sonarqube/project/src/test/ \
       -D sonar.host.url=http://192.168.52.128:9000"
     }
   }
